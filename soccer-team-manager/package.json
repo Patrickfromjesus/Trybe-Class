@@ -1,0 +1,23 @@
+{
+  "name": "aulas-trybe",
+  "version": "1.0.0",
+  "description": "Repositório destinado a testes e e anotações de código de aulas.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Patrickfromjesus/Trybe-Class.git"
+  },
+  "keywords": [],
+  "author": "patrick",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Patrickfromjesus/Trybe-Class/issues"
+  },
+  "homepage": "https://github.com/Patrickfromjesus/Trybe-Class#readme",
+  "dependencies": {
+    "express": "4.17"
+  }
+}
