@@ -1,0 +1,24 @@
+{
+  "name": "aulas-trybe",
+  "version": "1.0.0",
+  "description": "Repositório destinado a testes e e anotações de código de aulas.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Patrickfromjesus/Trybe-Class.git"
+  },
+  "keywords": [],
+  "author": "patrick",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Patrickfromjesus/Trybe-Class/issues"
+  },
+  "homepage": "https://github.com/Patrickfromjesus/Trybe-Class#readme",
+  "devDependencies": {
+    "chai": "4.3",
+    "mocha": "10.0"
+  }
+}
