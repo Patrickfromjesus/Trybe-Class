@@ -1,1 +1,0 @@
-Repositório destinado a testes e e anotações de código de aulas.
