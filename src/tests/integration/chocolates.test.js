@@ -47,7 +47,15 @@ const mockFile = JSON.stringify({
 });
 
 describe('Testando a API Cacau Trybe', function () {
-  sinon.stub(fs, 'readFile').resolves(mockFile);
+  beforeEach(function () {
+    sinon.stub(fs.promises, 'readFile')
+      .resolves(mockFile);
+  });
+
+  afterEach(function () {
+    sinon.restore();
+  });
+  
   describe('Usando o método GET em /chocolates', function () {
     it('1. Retorna a lista completa de chocolates!', async function () {
       const output = [

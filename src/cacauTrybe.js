@@ -16,7 +16,13 @@ const getAllChocolates = async () => {
   return cacauTrybe.chocolates;
 };
 
+const getAllBrands = async () => {
+  const brandsTrybe = await readCacauTrybeFile();
+  return brandsTrybe.brands;
+}
+
 module.exports = {
     getAllChocolates,
     readCacauTrybeFile,
+    getAllBrands,
 };
